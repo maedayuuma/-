@@ -65,10 +65,14 @@
     background-color: #AAA;
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
+     header {
+       width: 100%;
+     }
+    
      main {
       width: 100%;
-      display: block;
+      display:block;
     }
 
     .step-box {
@@ -77,6 +81,10 @@
     }
     
     .step-box:last-child {
-    margin-left: 5%;
+     margin-left: 5%;
+    }
+
+   footer {
+     width: 100%;
    }
   }
